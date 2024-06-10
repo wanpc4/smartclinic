@@ -1,0 +1,29 @@
+{%load static%}
+<html>
+    <head>
+        <title>SCIS - Login</title>
+    </head>
+    <script src="{% static 'script.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <body id="login-page">
+        <div id="form-name">
+            <h1>Smartclinic</h1>
+        </div>
+        <!--Login form for clinic employee (This could be a doctor, nurse, or other positions)-->
+        <div id="login-form-external">
+            <div id="login-form">
+                <label for="username">Username</label>
+                <br>
+                <input type="text" name="username" id="username">
+                <br><br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password" id="password">
+                <br><br>
+                <input type="checkbox" name="remember_me" id="remember_me"> Remember me
+                <br><br>
+                <input type="submit" name="submit-btn" onclick="hello()">
+            </div>
+        </div>
+    </body>
+</html>
