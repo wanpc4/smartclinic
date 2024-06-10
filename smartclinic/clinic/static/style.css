@@ -6,13 +6,20 @@
 
 #form-name
 {
+    font-family: 'Arial';
     text-align: center;
 }
 
 #login-form-external
 {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#login-form-internal
+{
     margin: 0 auto;
-    width: 25%;
+    width: 20%;
 }
 
 #login-form
@@ -24,11 +31,17 @@
 #login-form #username
 {
     height: 40px;
-    width: 340px;
+    width: 404px;
 }
 
 #login-form #password
 {
     height: 40px;
-    width: 340px;
+    width: 404px;
+}
+
+.submit-login button
+{
+    height: 50px;
+    width: 404px;
 }
