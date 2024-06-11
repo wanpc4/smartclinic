@@ -12,5 +12,5 @@ When I was an intern in web developer back then (2023), it took me 3 months to g
 What have you learned?
 I have learned so many things about web development during internship. Including frontend and backend development. At first, it was so hard to understand but once I go through every tutorial, exercises, lecture videos. I completely become comfortable at it. Even after I finish my internship, I still continue to learn web development as much as I can.
 
-Your hope to smartclinic project.
+What is your hope to this project?
 I hope that this project will be used by clinics department out there. Even not by clinic departments, I allow anyone to use this project's source code as a purpose of learning (not plagiarism!).
