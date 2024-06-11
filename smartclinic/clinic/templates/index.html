@@ -5,6 +5,7 @@
     </head>
     <script src="{% static 'script.js' %}"></script>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body id="login-page">
         <!--Login form for clinic employee (This could be a doctor, nurse, or other positions)-->
         <div id="login-form-external">
@@ -21,7 +22,7 @@
                     <br>
                     <input type="password" name="password" id="password">
                     <br><br>
-                    <input type="checkbox" name="remember_me" id="remember_me"> Remember me &emsp;&emsp;&emsp;&emsp;<a href="#">I forgot my password</a>
+                    <input type="checkbox" name="remember_me" id="remember_me"> Remember me &emsp;&emsp;&emsp;<a href="#">I forgot my password</a>
                     <br><br>
                     <div class="submit-login">
                         <button onclick="hello()"><h2>Submit</h2></button>
